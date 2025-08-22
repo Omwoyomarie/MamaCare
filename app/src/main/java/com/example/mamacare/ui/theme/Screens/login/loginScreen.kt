@@ -54,7 +54,7 @@ fun loginScreen(navController: NavController) {
         Image(
             painter = painterResource(id = R.drawable.newborn),
             contentDescription = "register background",
-            contentScale = ContentScale.FillBounds,
+            contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize()
         )
         Column (modifier = Modifier.fillMaxSize(),
@@ -84,7 +84,7 @@ fun loginScreen(navController: NavController) {
                 value = email,
                 onValueChange = { email = it },
                 label = { Text("Enter email") },
-                placeholder = { Text("Please enter email",color = Color.Black) },
+                placeholder = { Text("Please enter email",color = Color.White) },
                 leadingIcon = { Icon(Icons.Default.Email, contentDescription = "Email icon") },
                 modifier = Modifier.fillMaxWidth(0.8f),
                 shape = RoundedCornerShape(16.dp),
@@ -92,7 +92,7 @@ fun loginScreen(navController: NavController) {
 //                focusedBorderColor = Color.Blue,
                     unfocusedBorderColor = Color.Black,
                     cursorColor = Color.Black,
-                    focusedTextColor = Color.Black,
+                    focusedTextColor = Color.White,
                     unfocusedTextColor = Color.Black
                 )
             )
@@ -100,7 +100,7 @@ fun loginScreen(navController: NavController) {
                 value = password,
                 onValueChange = { password = it },
                 label = { Text("Enter password") },
-                placeholder = { Text("Please enter password", color = Color.Black) },
+                placeholder = { Text("Please enter password", color = Color.White) },
                 visualTransformation = PasswordVisualTransformation(),
                 leadingIcon = { Icon(Icons.Default.Lock, contentDescription = "password") },
                 modifier = Modifier.fillMaxWidth(0.8f),
@@ -109,7 +109,7 @@ fun loginScreen(navController: NavController) {
 //                focusedBorderColor = Color.Blue,
                     unfocusedBorderColor = Color.Black,
                     cursorColor = Color.Black,
-                    focusedTextColor = Color.Black,
+                    focusedTextColor = Color.White,
                     unfocusedTextColor = Color.Black,
                 )
             )

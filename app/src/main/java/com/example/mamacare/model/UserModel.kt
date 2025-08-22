@@ -1,4 +1,4 @@
-package com.example.mamacare.models
+package com.example.mamacare.model
 
 data class UserModel(
     val username: String="",

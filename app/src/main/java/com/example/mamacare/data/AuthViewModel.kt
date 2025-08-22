@@ -4,7 +4,7 @@ import android.content.Context
 import android.widget.Toast
 import androidx.lifecycle.ViewModel
 import androidx.navigation.NavController
-import com.example.mamacare.models.UserModel
+import com.example.mamacare.model.UserModel
 import com.example.mamacare.navigation.ROUTE_HOMESCREEN
 //import com.example.mamacare.navigation.ROUTE_HOMESCREEN
 import com.example.mamacare.navigation.ROUTE_LOGIN

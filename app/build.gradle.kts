@@ -66,4 +66,5 @@ dependencies {
     implementation("com.squareup.okhttp3:logging-interceptor:4.9.3")
     implementation("com.cloudinary:cloudinary-android:2.3.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    implementation("androidx.compose.material:material-icons-extended:1.6.8")
 }
